@@ -1,0 +1,325 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+}
+
+                                                /* Header Section start */
+
+.manu-container{
+    background-color: rgb(32, 32, 32);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 60px;
+    width: 90%;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 40px;
+    padding-left: 100px;
+    
+}
+
+.nav-item ul{
+    display: flex;
+    list-style: none;
+    padding-left: 400px;
+}
+
+.nav-item ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    margin-right: 30px;
+}
+
+                                                /* Header Section end */
+
+
+                                                /* Home Section start */
+.home{
+    background-color: #f1e4e4;
+}
+
+.home-container{
+    display: flex;
+    height: 90vh;
+    width: 80%;
+    align-items: center;
+    margin: auto; 
+}
+
+.home-text h1{
+    font-size: 50px;
+}
+
+.home-text p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: sandybrown;
+    border: none;
+    color: white;
+}
+
+
+.home-img img{
+    width: 500px;
+    height: 480px;
+}
+                                                /* Home Section end */
+
+                                                /* About Section start */
+.about{
+    height: 120px;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.about h1{
+    font-size: 40px;
+}
+
+.about p{
+    margin-top: 15px;
+}
+
+                                                /* About Section end */
+           
+                                                /* Product Section start */                                               
+.product{
+    width: 850px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+}
+
+.flower-image1{
+    background-color: rgba(229,84,115,0.10);
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    height: 325px;
+    width: 280px;
+
+}
+
+.flower-image2{
+    background-color: rgb(224, 245, 238);
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    height: 325px;
+    width: 280px;
+
+}
+
+.flower-image3{
+    background-color: rgb(226, 224, 224);
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    height: 325px;
+    width: 280px;
+
+}
+
+.product img{
+    height: 270px;
+    width: 170px;
+    padding: 20%;
+
+}
+
+.flower-image1 a, .flower-image2 a, .flower-image3 a{
+    text-decoration: none;
+    font-weight: 800;
+}
+
+                                                /* Product Section end */
+
+
+                                                /* Buy Section start */                                                
+.buy-container{
+    width: 100%;
+    height: auto;   
+    background-color: #f1e4e4;
+    margin-top: 150px;
+}
+
+.buy{
+    width: 80%;  
+    height: 400px; 
+    display: flex;
+    align-content: space-around;
+    margin: auto;
+
+}
+
+.buy-info{
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.buy-info p{
+    font-size: 12px;
+    color: grey;
+    margin-top: 20px;
+}
+
+.buy-img img{
+    width: 250px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.buy .btn{
+    padding: 5px 20px;
+    background-color: rgb(220, 101, 101); 
+}
+
+
+                                                /* Buy Section end */
+
+
+                                                /* Insta Section start */
+
+.insta{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.insta-info{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.insta-info h1{
+    font-size: 30px;
+}
+
+.insta-info p{
+    margin-top: 20px;
+}
+
+.insta .card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: -50px;
+}
+
+.card img{
+    width: 100%;
+    border: 4px solid white;
+}
+
+                                                /* Insta Section end */
+
+                                                /* Contact Section start */
+
+.contact{
+    width: 65%;
+    height: 250px;
+    margin: auto;
+    background-image: url(images/contact.png);
+    margin-top: 100px;
+}
+
+.contact-info{
+    text-align: center;
+   /* width: 100%;
+   height: 100px;
+   margin: auto; */
+}
+
+.contact-info h1{
+    margin-top: 70px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.contact-info p{
+    margin-top: 20px;
+    color: grey;
+}
+
+.form input{
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.form .btn{
+    background-color: rgb(188, 65, 65);
+    padding: 8px 15px;
+    margin-left: 10px;
+}
+
+                                                /* Contact Section end */
+
+
+                                                /* Footer Section start */
+
+.foot{
+    background-color: black;
+    border-width: 100vh;
+    height: 250px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+.last{
+    font-size: 50px;
+    font-style: bold;
+}
+
+.last span{
+    color:  rgb(250, 101, 101);
+    font-size: 50px;
+    font-style: bold;
+}
+
+.last-foot{
+    font-size: 20px;
+    color: gray;
+    padding-top: 20px;
+}
+
+
+                                                /* Footer Section end */
+
+
+@media screen and (max-width:576px) {
+    .home-container{
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        align-content: center;
+    }
+}
